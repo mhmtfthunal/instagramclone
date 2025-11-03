@@ -1,0 +1,207 @@
+/* Instagram Clone Custom Styles */
+
+/* Body - Instagram background color and padding for fixed navbar */
+body {
+    background-color: #fafafa;
+    padding-top: 54px;
+}
+
+/* Navbar Styling */
+.navbar {
+    height: 54px;
+    background-color: white !important;
+}
+
+/* Logo margin */
+.logo {
+    margin-left: 192px;
+}
+
+/* Search Form */
+.search-form {
+    margin-left: 5rem;
+}
+
+.search-input {
+    background-color: #efefef;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.search-input::placeholder {
+    background-image: url('../assets/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+    padding-left: 5px;
+}
+
+/* Menu Icons */
+.menu-icons {
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.menu-icons .nav-link {
+    color: #262626;
+    margin: 0 8px;
+}
+
+.menu-icons .nav-link:hover {
+    color: #8e8e8e;
+}
+
+/* Main Content Area */
+.middlearea {
+    margin-top: 2rem;
+    max-height: 200px !important;
+}
+
+/* Stories Section */
+.scrollable-stories {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.scrollable-stories::-webkit-scrollbar {
+    display: none;
+}
+
+.story-item {
+    margin-right: 16px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.story-item small {
+    font-size: 12px;
+    max-width: 64px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.story-border {
+    padding: 2px;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.story-border img {
+    border: 3px solid white;
+}
+
+/* Post Cards */
+.card {
+    border: 1px solid #dbdbdb;
+    margin-bottom: 24px;
+}
+
+.card-header,
+.card-footer {
+    background-color: white !important;
+    border: none !important;
+}
+
+.card-header {
+    padding: 14px 16px;
+}
+
+.card-body {
+    padding: 0 16px 8px;
+}
+
+.card-footer {
+    padding: 6px 16px;
+}
+
+.card-footer input {
+    outline: none;
+    box-shadow: none;
+}
+
+.card-footer input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.card-footer span {
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+/* Post Icons */
+.card-body i {
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.card-body i:hover {
+    opacity: 0.5;
+}
+
+/* Right Panel */
+.stickysidebar {
+    position: sticky;
+    top: 70px;
+    padding: 20px;
+}
+
+.rightpanel {
+    background-color: white;
+    border: none;
+}
+
+/* Suggestions */
+.suggestion-item {
+    padding: 8px 0;
+}
+
+.suggestion-item img {
+    object-fit: cover;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 0;
+    }
+    
+    .search-form {
+        margin-left: 1rem;
+    }
+    
+    .middlearea {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .search-form {
+        margin-left: 0.5rem;
+    }
+}
+
+/* Text colors matching Instagram */
+.text-muted {
+    color: #8e8e8e !important;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/* Profile pictures */
+img.rounded-circle {
+    object-fit: cover;
+}

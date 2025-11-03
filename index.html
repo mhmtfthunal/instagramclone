@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png" alt="Instagram" height="29">
+            </a>
+            <form class="d-flex search-form">
+                <input class="form-control search-input" type="search" placeholder="Ara" aria-label="Search">
+            </form>
+            <div class="navbar-nav d-none d-sm-flex menu-icons">
+                <a class="nav-link" href="#"><i class="fas fa-home fa-lg"></i></a>
+                <a class="nav-link" href="#"><i class="far fa-comment fa-lg"></i></a>
+                <a class="nav-link" href="#"><i class="far fa-compass fa-lg"></i></a>
+                <a class="nav-link" href="#"><i class="far fa-heart fa-lg"></i></a>
+                <a class="nav-link" href="#">
+                    <img src="https://i.pravatar.cc/150?img=10" alt="Profile" class="rounded-circle" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Middle Area - Posts -->
+            <div class="col-12 col-sm-6 offset-md-4 middlearea">
+                <!-- Stories -->
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="d-flex scrollable-stories">
+                            <div class="story-item d-flex flex-column align-items-center">
+                                <div class="story-border">
+                                    <img src="https://i.pravatar.cc/150?img=1" alt="Story 1" class="rounded-circle" width="56" height="56">
+                                </div>
+                                <small class="mt-1">kullanici1</small>
+                            </div>
+                            <div class="story-item d-flex flex-column align-items-center">
+                                <div class="story-border">
+                                    <img src="https://i.pravatar.cc/150?img=2" alt="Story 2" class="rounded-circle" width="56" height="56">
+                                </div>
+                                <small class="mt-1">kullanici2</small>
+                            </div>
+                            <div class="story-item d-flex flex-column align-items-center">
+                                <div class="story-border">
+                                    <img src="https://i.pravatar.cc/150?img=3" alt="Story 3" class="rounded-circle" width="56" height="56">
+                                </div>
+                                <small class="mt-1">kullanici3</small>
+                            </div>
+                            <div class="story-item d-flex flex-column align-items-center">
+                                <div class="story-border">
+                                    <img src="https://i.pravatar.cc/150?img=4" alt="Story 4" class="rounded-circle" width="56" height="56">
+                                </div>
+                                <small class="mt-1">kullanici4</small>
+                            </div>
+                            <div class="story-item d-flex flex-column align-items-center">
+                                <div class="story-border">
+                                    <img src="https://i.pravatar.cc/150?img=5" alt="Story 5" class="rounded-circle" width="56" height="56">
+                                </div>
+                                <small class="mt-1">kullanici5</small>
+                            </div>
+                            <div class="story-item d-flex flex-column align-items-center">
+                                <div class="story-border">
+                                    <img src="https://i.pravatar.cc/150?img=6" alt="Story 6" class="rounded-circle" width="56" height="56">
+                                </div>
+                                <small class="mt-1">kullanici6</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 1 -->
+                <div class="card mb-4">
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="https://i.pravatar.cc/150?img=11" alt="Profile" class="rounded-circle me-2" width="32" height="32">
+                            <strong>kullanici_adi</strong>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <img src="https://picsum.photos/600/600?random=1" class="card-img-top" alt="Post">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div>
+                                <i class="far fa-heart fa-lg me-3"></i>
+                                <i class="far fa-comment fa-lg me-3"></i>
+                                <i class="far fa-paper-plane fa-lg"></i>
+                            </div>
+                            <div class="ms-auto">
+                                <i class="far fa-bookmark fa-lg"></i>
+                            </div>
+                        </div>
+                        <p class="mb-1"><strong>1,234 beğenme</strong></p>
+                        <p class="mb-1">
+                            <strong>kullanici_adi</strong> 
+                            Harika bir gün! #instagram #photo
+                        </p>
+                        <a href="#" class="text-muted text-decoration-none">
+                            <small>Yorumların tümünü gör (23)</small>
+                        </a>
+                        <p class="text-muted mb-0"><small>2 SAAT ÖNCE</small></p>
+                    </div>
+                    <div class="card-footer bg-white">
+                        <div class="d-flex align-items-center">
+                            <i class="far fa-smile fa-lg me-2"></i>
+                            <input type="text" class="form-control border-0" placeholder="Yorum ekle...">
+                            <span class="text-primary">Paylaş</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="card mb-4">
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="https://i.pravatar.cc/150?img=12" alt="Profile" class="rounded-circle me-2" width="32" height="32">
+                            <strong>diger_kullanici</strong>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <img src="https://picsum.photos/600/600?random=2" class="card-img-top" alt="Post">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div>
+                                <i class="far fa-heart fa-lg me-3"></i>
+                                <i class="far fa-comment fa-lg me-3"></i>
+                                <i class="far fa-paper-plane fa-lg"></i>
+                            </div>
+                            <div class="ms-auto">
+                                <i class="far fa-bookmark fa-lg"></i>
+                            </div>
+                        </div>
+                        <p class="mb-1"><strong>2,567 beğenme</strong></p>
+                        <p class="mb-1">
+                            <strong>diger_kullanici</strong> 
+                            Mükemmel bir an! 📸
+                        </p>
+                        <a href="#" class="text-muted text-decoration-none">
+                            <small>Yorumların tümünü gör (45)</small>
+                        </a>
+                        <p class="text-muted mb-0"><small>5 SAAT ÖNCE</small></p>
+                    </div>
+                    <div class="card-footer bg-white">
+                        <div class="d-flex align-items-center">
+                            <i class="far fa-smile fa-lg me-2"></i>
+                            <input type="text" class="form-control border-0" placeholder="Yorum ekle...">
+                            <span class="text-primary">Paylaş</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="card mb-4">
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="https://i.pravatar.cc/150?img=13" alt="Profile" class="rounded-circle me-2" width="32" height="32">
+                            <strong>ucuncu_kullanici</strong>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <img src="https://picsum.photos/600/600?random=3" class="card-img-top" alt="Post">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div>
+                                <i class="far fa-heart fa-lg me-3"></i>
+                                <i class="far fa-comment fa-lg me-3"></i>
+                                <i class="far fa-paper-plane fa-lg"></i>
+                            </div>
+                            <div class="ms-auto">
+                                <i class="far fa-bookmark fa-lg"></i>
+                            </div>
+                        </div>
+                        <p class="mb-1"><strong>890 beğenme</strong></p>
+                        <p class="mb-1">
+                            <strong>ucuncu_kullanici</strong> 
+                            Hayat güzel! 🌟
+                        </p>
+                        <a href="#" class="text-muted text-decoration-none">
+                            <small>Yorumların tümünü gör (12)</small>
+                        </a>
+                        <p class="text-muted mb-0"><small>8 SAAT ÖNCE</small></p>
+                    </div>
+                    <div class="card-footer bg-white">
+                        <div class="d-flex align-items-center">
+                            <i class="far fa-smile fa-lg me-2"></i>
+                            <input type="text" class="form-control border-0" placeholder="Yorum ekle...">
+                            <span class="text-primary">Paylaş</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel -->
+            <div class="col-md-4 d-none d-md-block">
+                <div class="stickysidebar rightpanel">
+                    <!-- Profile Info -->
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://i.pravatar.cc/150?img=10" alt="Profile" class="rounded-circle me-3" width="56" height="56">
+                        <div>
+                            <strong>senin_kullanici_adin</strong>
+                            <p class="text-muted mb-0 small">Adın Soyadın</p>
+                        </div>
+                    </div>
+
+                    <!-- Suggestions -->
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="text-muted small"><strong>Senin İçin Öneriler</strong></span>
+                        <a href="#" class="text-dark text-decoration-none small"><strong>Tümünü Gör</strong></a>
+                    </div>
+
+                    <!-- Suggestion Items -->
+                    <div class="suggestion-item d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center">
+                            <img src="https://i.pravatar.cc/150?img=20" alt="Suggestion" class="rounded-circle me-2" width="32" height="32">
+                            <div>
+                                <strong class="small">oneri_kullanici_1</strong>
+                                <p class="text-muted mb-0 small">Seni takip ediyor</p>
+                            </div>
+                        </div>
+                        <a href="#" class="text-primary text-decoration-none small"><strong>Takip Et</strong></a>
+                    </div>
+
+                    <div class="suggestion-item d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center">
+                            <img src="https://i.pravatar.cc/150?img=21" alt="Suggestion" class="rounded-circle me-2" width="32" height="32">
+                            <div>
+                                <strong class="small">oneri_kullanici_2</strong>
+                                <p class="text-muted mb-0 small">Seni takip ediyor</p>
+                            </div>
+                        </div>
+                        <a href="#" class="text-primary text-decoration-none small"><strong>Takip Et</strong></a>
+                    </div>
+
+                    <div class="suggestion-item d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center">
+                            <img src="https://i.pravatar.cc/150?img=22" alt="Suggestion" class="rounded-circle me-2" width="32" height="32">
+                            <div>
+                                <strong class="small">oneri_kullanici_3</strong>
+                                <p class="text-muted mb-0 small">Popüler</p>
+                            </div>
+                        </div>
+                        <a href="#" class="text-primary text-decoration-none small"><strong>Takip Et</strong></a>
+                    </div>
+
+                    <div class="suggestion-item d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center">
+                            <img src="https://i.pravatar.cc/150?img=23" alt="Suggestion" class="rounded-circle me-2" width="32" height="32">
+                            <div>
+                                <strong class="small">oneri_kullanici_4</strong>
+                                <p class="text-muted mb-0 small">Yeni Instagram'da</p>
+                            </div>
+                        </div>
+                        <a href="#" class="text-primary text-decoration-none small"><strong>Takip Et</strong></a>
+                    </div>
+
+                    <div class="suggestion-item d-flex align-items-center justify-content-between mb-3">
+                        <div class="d-flex align-items-center">
+                            <img src="https://i.pravatar.cc/150?img=24" alt="Suggestion" class="rounded-circle me-2" width="32" height="32">
+                            <div>
+                                <strong class="small">oneri_kullanici_5</strong>
+                                <p class="text-muted mb-0 small">Seni takip ediyor</p>
+                            </div>
+                        </div>
+                        <a href="#" class="text-primary text-decoration-none small"><strong>Takip Et</strong></a>
+                    </div>
+
+                    <!-- Footer Links -->
+                    <div class="mt-4">
+                        <p class="text-muted small mb-2">
+                            <a href="#" class="text-muted text-decoration-none">Hakkında</a> · 
+                            <a href="#" class="text-muted text-decoration-none">Yardım</a> · 
+                            <a href="#" class="text-muted text-decoration-none">Basın</a> · 
+                            <a href="#" class="text-muted text-decoration-none">API</a> · 
+                            <a href="#" class="text-muted text-decoration-none">İş Fırsatları</a> · 
+                            <a href="#" class="text-muted text-decoration-none">Gizlilik</a> · 
+                            <a href="#" class="text-muted text-decoration-none">Koşullar</a> · 
+                            <a href="#" class="text-muted text-decoration-none">Konumlar</a>
+                        </p>
+                        <p class="text-muted small">© 2024 INSTAGRAM FROM META</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
