@@ -1,6 +1,6 @@
 # Instagram Clone
 
-Bootstrap 5 kullanılarak geliştirilmiş Instagram web arayüzü klonu. Bu proje, Kodluyoruz Bootstrap eğitimi kapsamında hazırlanmıştır.
+Bootstrap 5 kullanılarak geliştirilmiş Instagram web arayüzü klonu. Bu proje, Patika Bootstrap eğitimi kapsamında hazırlanmıştır.
 
 ![Instagram Clone](https://img.shields.io/badge/Bootstrap-5.3.0-purple)
 ![FontAwesome](https://img.shields.io/badge/FontAwesome-6.4.0-blue)
@@ -120,29 +120,6 @@ Projede kullanılan önemli Bootstrap class'ları:
 | Tablet (576-768px) | Navbar + Posts (2 kolon) |
 | Mobile (<576px) | Tek kolon layout |
 
-## 🎯 Kodluyoruz Gereksinimleri
-
-Bu projede aşağıdaki gereksinimler başarıyla uygulanmıştır:
-
-- [x] Navbar sticky ve 54px yükseklikte
-- [x] Body'e padding eklendi
-- [x] Logo'ya 192px soldan margin
-- [x] Arama kutusu d-flex ile ortalandı, 5rem sol margin
-- [x] Arama ikonlu placeholder
-- [x] Menü ikonları doğru konumlandırıldı (5rem sol, 2rem üst margin)
-- [x] Menü sm boyutunda gizleniyor
-- [x] İçerik alanı offset-4 ve 2rem üst margin
-- [x] middlearea max-height: 200px !important
-- [x] Responsive col yapısı (col-12 col-sm-6)
-- [x] Hikaye isimleri flex-column ile alt kısımda
-- [x] Üç nokta menü sağda
-- [x] İkonlarda border yok
-- [x] Bookmark offset-7
-- [x] Card header/footer beyaz
-- [x] "Paylaş" yazısı sağda
-- [x] Sağ panel sticky ve beyaz arkaplan
-- [x] Instagram arkaplan rengi (#fafafa)
-
 ## 🌐 Demo
 
 Proje şu anda online placeholder görseller kullanmaktadır:
@@ -164,20 +141,6 @@ background: linear-gradient(45deg,
   #dc2743 50%, #cc2366 75%, 
   #bc1888 100%);
 ```
-
-## 💻 Geliştirici
-
-**Mehmet Fatih Ünal**
-- GitHub: [@mhmtfthunal](https://github.com/mhmtfthunal)
-
 ## 📄 Lisans
 
 Bu proje eğitim amaçlı hazırlanmıştır. Instagram ve Meta Platforms, Inc. şirketinin ticari markalarıdır.
-
-## 🙏 Teşekkürler
-
-Bu proje [Kodluyoruz](https://www.kodluyoruz.org/) Bootstrap eğitimi kapsamında geliştirilmiştir.
-
----
-
-⭐ Beğendiyseniz yıldız vermeyi unutmayın!
